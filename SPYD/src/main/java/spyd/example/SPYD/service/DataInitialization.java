@@ -36,6 +36,7 @@ public class DataInitialization implements CommandLineRunner {
                 adminUser.setEmail(adminUsername);
                 adminUser.setPassword(bCryptPasswordEncoder.encode("Spyd@1234"));
                 adminUser.setRole("ADMIN");
+                userRepository.save(adminUser);
                 logger.info("Admin user initialized successfully.");
             } else {
                 logger.warn("Admin user already exists. Skipping initialization.");

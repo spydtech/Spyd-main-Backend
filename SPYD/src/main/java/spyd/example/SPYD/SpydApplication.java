@@ -17,6 +17,4 @@ public class SpydApplication {
 		return new BCryptPasswordEncoder();
 	}
 
-
-
 }

@@ -13,6 +13,10 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
+    private String role;
 
     public Long getId() {
         return id;
@@ -62,9 +66,6 @@ public class User {
         this.role = role;
     }
 
-    private String lastName;
-    private String email;
-    private String password;
-    private String role;
+
 
 }
