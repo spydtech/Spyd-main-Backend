@@ -52,6 +52,7 @@ public class AppConfig {
                     "http://localhost:8082",
                     "http://localhost:8080",
                     "http://15.206.94.23:8080",
+                    "http://15.206.94.23:8081",
                     "http://15.206.94.23:8082",
                     "http://15.206.94.23:5174",
                     "http://15.206.94.23:5173"
